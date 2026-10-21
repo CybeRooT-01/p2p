@@ -1,0 +1,16 @@
+server:
+  port: 5002
+
+node:
+  storage: storage_node_5002
+  peers:
+    - http://localhost:5000
+    - http://localhost:5001
+
+spring:
+  application:
+    name: p2p-node3
+
+logging:
+  level:
+    com.distributedsystem: INFO
